@@ -23,7 +23,6 @@ int main(){
      for(int i=num1;i<=num2;i++){
        if(i==num1) printf("The Strong numbers are:");
        if(isStrong(i)) printf(" %d",i);
-       if(i==num2) printf("\n");
     } 
     return 0;
 }
